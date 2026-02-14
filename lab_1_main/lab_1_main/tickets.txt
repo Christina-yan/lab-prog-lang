@@ -1,0 +1,7 @@
+London 101 450.50 A
+Paris 205 320.00 B
+Tokyo 777 890.99 C
+Berlin 142 210.30 A
+Moscow 550 570.15 D
+NewYork 99 950.00 B
+Seoul 143 392.95 C
