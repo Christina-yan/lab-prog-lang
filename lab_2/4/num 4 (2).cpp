@@ -29,12 +29,21 @@ int main()
     Complex c2(4, 3);
 
     cout << c1.ToStringTrig() << endl;
+    cout << c1.Arg() << endl;
+    cout << c2.Abs() << endl;
+    
 
     Complex c3 = c1.Add(c2);
     cout << "c1 + c2 = " << c3.ToString() << endl;
 
     c3 = c1.Div(c2);
     cout << "c1 / c2 = " << c3.ToStringExp() << endl;
+
+    Complex c4 = c2.Sub(c3);
+    cout << "c2 - c3 = " << c4.ToString() << endl;
+
+    c4 = c2.Mult(c3);
+    cout << "c2 * c3 = " << c4.ToString() << endl;
 
     return 0;
 }
